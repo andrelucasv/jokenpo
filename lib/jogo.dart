@@ -45,10 +45,11 @@ class _JogoState extends State<Jogo> {
             ),
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Image.asset("assets/images/pedra.png"),
-              Image.asset("assets/images/papel.png"),
-              Image.asset("assets/images/tesoura.png"),
+              Image.asset("assets/images/pedra.png", height: 100,),
+              Image.asset("assets/images/papel.png", height: 100,),
+              Image.asset("assets/images/tesoura.png", height: 100,),
             ],
           )
         ],
