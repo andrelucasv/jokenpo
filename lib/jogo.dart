@@ -70,10 +70,6 @@ class _JogoState extends State<Jogo> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          //text
-          //image
-          //text resultado
-          //row 3 images
           const Padding(
             padding: EdgeInsets.only(top: 32, bottom: 16),
             child: Text(
@@ -112,11 +108,6 @@ class _JogoState extends State<Jogo> {
                 onTap: () => _opcaoSelecionada("tesoura"),
                 child: Image.asset("assets/images/tesoura.png", height: 100,),
               )
-              /*
-              Image.asset("assets/images/pedra.png", height: 100,),
-              Image.asset("assets/images/papel.png", height: 100,),
-              Image.asset("assets/images/tesoura.png", height: 100,),
-              */
             ],
           )
         ],
